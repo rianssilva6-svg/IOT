@@ -16,5 +16,6 @@ for nota in v_notas:
     if nota > media:
         mediaacima.append(nota)
 
-print(f"Acima da média: {mediaacima}")
-print(f"média: {media}")
+print(f"Acima da média: {mediaacima:.1f}")
+
+print(f"média: {media:.1f}")
