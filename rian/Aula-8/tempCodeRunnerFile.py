@@ -1,0 +1,13 @@
+btnExcluir = ctk.CTkButton(janela,
+                    width=150,
+                    height=35,
+                    text='Excluir',
+                    fg_color='#5f7485',
+                    text_color="#FFFFFF",
+                    hover_color="#43525f",
+                    cursor='hand2',
+                    border_width=2,
+                    border_color='#ffffff',
+                    font=('verdana',12, 'bold'),
+                    command=excluir)
+btnExcluir.pack(pady=20)
