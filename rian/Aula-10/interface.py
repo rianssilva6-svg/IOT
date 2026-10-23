@@ -17,7 +17,7 @@ imagem_qr = None
 
 def gerar_qrcode():
     global imagem_qr
-    texto = entrada.get()
+    texto = entrada.get().strip()
 
     if(texto != ''):
         qr = qrcode.make(texto)
